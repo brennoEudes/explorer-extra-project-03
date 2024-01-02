@@ -4,9 +4,10 @@
   box-sizing: border-box;
 }
 
+/* BODY */
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #EFEFEF;
+  background-color: #efefef;
 }
 
 body::before {
@@ -19,11 +20,13 @@ body::before {
   background-color: #535971;
 }
 
+/* PAGE */
 .page {
   width: 750px;
   margin: auto;
 }
 
+/* HEADER */
 header {
   padding: 140px 0 58px 0;
 
@@ -44,4 +47,26 @@ header p {
   font-size: 20px;
   font-weight: 400;
   line-height: normal;
+}
+
+/* FORM */
+form {
+  padding: 64px;
+  background-color: #fff;
+  border-radius: 20px 20px 0px 0px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+/* FORM FIELDSET */
+fieldset {
+    border: none;
+}
+
+.fieldset-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
