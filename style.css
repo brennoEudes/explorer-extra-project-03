@@ -143,3 +143,36 @@ fieldset {
   font-weight: 400;
 }
 
+/* FOOTER */
+footer {
+  border-radius: 0px 0px 20px 20px;
+  background: #535971;
+  height: 160px;
+
+  padding: 52px 70px;
+  margin-bottom: 50px;
+}
+
+footer .button {
+  display: flex;
+  width: 608px;
+  height: 56px;
+  padding: 15px 40px;
+
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+  border-radius: 20px;
+  background: #ff5374;
+
+  color: #fff;
+
+  font-family: Staatliches;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+footer .button:hover {
+  background: #c33350;
+}
