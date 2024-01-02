@@ -62,11 +62,19 @@ form {
 
 /* FORM FIELDSET */
 fieldset {
-    border: none;
+  border: none;
 }
 
 .fieldset-container {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.fieldset-container legend {
+  color: #535971;
+
+  font-family: Staatliches;
+  font-size: 24px;
+  font-weight: 400;
 }
