@@ -30,57 +30,86 @@
             </div>
 
             <div class="data-container">
-                <label for="event-surname">Sobrenome</label>
-                <input type="text" id="event-surname" />
-              </div>
+              <label for="event-surname">Sobrenome</label>
+              <input type="text" id="event-surname" />
+            </div>
 
-              <div class="data-container">
-                <label for="event-email">Email <span>(digite um email válido)</span></label>
-                <input type="email" id="event-email" />
-              </div>
+            <div class="data-container">
+              <label for="event-email"
+                >Email <span>(digite um email válido)</span></label
+              >
+              <input type="email" id="event-email" />
+            </div>
 
-              <div class="data-container">
-                <label for="event-password">Senha <span>(mínimo de 6 caracteres)</span></label>
-                <input type="password" id="event-password" />
-              </div>
+            <div class="data-container">
+              <label for="event-password"
+                >Senha <span>(mínimo de 6 caracteres)</span></label
+              >
+              <input type="password" id="event-password" />
+            </div>
           </div>
         </fieldset>
 
         <fieldset>
-            <div class="fieldset-container">
-              <legend>Informações do mentor</legend>
-              <div class="data-container">
-                <label for="mentor-name">Nome do seu mentor<span>(só o primeiro nome)</span></label>
-                <input type="text" id="mentor-name" />
-              </div>
-            </div>
-          </fieldset>
-
-          <fieldset>
           <div class="fieldset-container">
-            <legend>Informações pessoais</legend>
+            <legend>Informações do mentor</legend>
             <div class="data-container">
-              <label for="event-name">Nome</label>
-              <input type="text" id="event-name" />
+              <label for="mentor-name"
+                >Nome do seu mentor<span>(só o primeiro nome)</span></label
+              >
+              <input type="text" id="mentor-name" />
             </div>
-
-            <div class="data-container">
-                <label for="event-surname">Sobrenome</label>
-                <input type="text" id="event-surname" />
-              </div>
-
-              <div class="data-container">
-                <label for="event-email">Email <span>(digite um email válido)</span></label>
-                <input type="email" id="event-email" />
-              </div>
-
-              <div class="data-container">
-                <label for="event-password">Senha <span>(mínimo de 6 caracteres)</span></label>
-                <input type="password" id="event-password" />
-              </div>
           </div>
         </fieldset>
-        
+
+        <fieldset>
+          <div class="fieldset-container">
+            <legend>Seus horários disponíveis</legend>
+
+            <div class="mentory-title">
+                <h2>PRIMEIRA MENTORIA</h2>
+              <div class="data-container">
+                <label for="mentory-date">Data <span>(DD/MM/AA)</span></label>
+                <input type="date" id="mentory-date" />
+              </div>
+
+              <div class="data-container">
+                <label for="mentory-begin">Das</label>
+                <input type="time" id="mentory-begin" />
+              </div>
+
+              <div class="data-container">
+                <label for="mentory-end"
+                  >Até</label
+                >
+                <input type="time" id="mentory-end" />
+              </div>
+            </div>
+
+            <div class="mentory-title">
+                <h2>SEGUNDA MENTORIA</h2>
+                <div class="data-container">
+                    <label for="mentory-date">Data <span>(DD/MM/AA)</span></label>
+                    <input type="date" id="mentory-date" />
+                  </div>
+    
+                  <div class="data-container">
+                    <label for="mentory-begin">Das</label>
+                    <input type="time" id="mentory-begin" />
+                  </div>
+    
+                  <div class="data-container">
+                    <label for="mentory-end"
+                      >Até</label
+                    >
+                    <input type="time" id="mentory-end" />
+                  </div>
+                
+              </div>
+
+           
+        </fieldset>
+
       </form>
       <footer>
         <input type="submit" />
