@@ -5,7 +5,8 @@
 }
 
 /* BODY */
-body {
+body,
+input {
   font-family: "Poppins", sans-serif;
   background-color: #efefef;
 }
@@ -106,10 +107,19 @@ fieldset {
 
 .data-container input {
   height: 56px;
+  padding: 0 16px;
 
   border-radius: 8px;
   border: 1px solid var(--Back-Lines-in-white, #e6e6f0);
   background: var(--Shapes-02, #fafafc);
+
+  color: var(--Texts-Inputs, #c1bccc);
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.data-container input:hover {
+  color: #706d78;
 }
 
 .mentory-title {
