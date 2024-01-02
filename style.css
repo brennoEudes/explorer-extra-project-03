@@ -77,4 +77,37 @@ fieldset {
   font-family: Staatliches;
   font-size: 24px;
   font-weight: 400;
+
+  padding-bottom: 16px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #e6e6f0;
+}
+
+.data-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.data-container label {
+  color: #4e4958;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.data-container label span {
+  color: #c1bccc;
+  font-size: 12px;
+  font-weight: 400;
+
+  margin-left: 8px;
+}
+
+.data-container input {
+  height: 56px;
+  
+  border-radius: 8px;
+  border: 1px solid var(--Back-Lines-in-white, #e6e6f0);
+  background: var(--Shapes-02, #fafafc);
 }
