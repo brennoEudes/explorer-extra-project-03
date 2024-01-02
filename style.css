@@ -18,6 +18,29 @@ body::before {
   background-color: #535971;
 }
 
+.page {
+  width: 750px;
+  margin: auto;
+}
 
+header {
+  padding: 140px 0 58px 0;
 
-/* font-family: "Staatliches", sans-serif; */
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  color: #fff;
+}
+
+h1 {
+  font-family: "Staatliches", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+header p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+}
