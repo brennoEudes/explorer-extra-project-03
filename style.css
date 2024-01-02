@@ -78,8 +78,8 @@ fieldset {
   font-size: 24px;
   font-weight: 400;
 
-  padding-bottom: 16px;
-  margin-bottom: 32px;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
   border-bottom: 1px solid #e6e6f0;
 }
 
@@ -112,11 +112,34 @@ fieldset {
   background: var(--Shapes-02, #fafafc);
 }
 
+.mentory-title {
+  color: #535971;
+
+  font-family: Staatliches;
+  font-size: 20px;
+  font-weight: 400;
+}
+
 .data-container-2 {
-    display: flex;
-    gap: 20px;
+  display: flex;
+  gap: 20px;
 }
 
 .data-container-2 > div:nth-child(1) {
-    width: 100%;
-  }
+  width: 100%;
+}
+
+.data-container-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.data-container-3 > p {
+  color: #535971;
+
+  font-family: Staatliches;
+  font-size: 20px;
+  font-weight: 400;
+}
+
