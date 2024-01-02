@@ -106,8 +106,17 @@ fieldset {
 
 .data-container input {
   height: 56px;
-  
+
   border-radius: 8px;
   border: 1px solid var(--Back-Lines-in-white, #e6e6f0);
   background: var(--Shapes-02, #fafafc);
 }
+
+.data-container-2 {
+    display: flex;
+    gap: 20px;
+}
+
+.data-container-2 > div:nth-child(1) {
+    width: 100%;
+  }
